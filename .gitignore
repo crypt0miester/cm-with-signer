@@ -1,0 +1,4 @@
+signed-cm/js/idl/*
+signed-cm/js/!idl/*.json
+signed-cm/js/node_modules/
+signed-cm/program/target
