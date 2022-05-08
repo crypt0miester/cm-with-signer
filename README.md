@@ -18,6 +18,7 @@ It is also should be known that the keypair has to be empty with no sols inside 
 
 ## Mechanism of the Candy Machine Signer (CMS):
  * Add a Candy Machine Signer to the Candy Machine Account
+ * Add isSignatureRequired to the "Candy Machine Data"/config
  * MintNFT can be invoked only when CMS has signed the transaction.
 
 ### How to add CMS via cli:
