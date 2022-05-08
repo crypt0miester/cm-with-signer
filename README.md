@@ -31,10 +31,12 @@ It is also should be known that the keypair has to be empty with no sols inside 
  * add the keypair from the json file to the .env file REACT_APP_CANDY_SIGNER field
  * yarn install && yarn build 
  * go to the build file and copy the /static/main.[hash].chunk.js
- * encrypt it with High option in https://obfuscator.io
-The method above can be simplified in the build process
-Note this step is neccessary to obfuscate the code in order to not the let the keypair be retrieved. You can also put a domain lock so that the code can only be used in your domain.
+ * encrypt it with High option in https://obfuscator.io. (This method can be simplified in the build process). 
 
+Note that the last step is neccessary to obfuscate the code in order to not the let the keypair be retrieved. You can also put a domain lock so that the code can only be used in your domain.
+
+
+## How to deploy to CF Pages:
  * Deploy to cloudflare pages with these settings: 
     * Environment variable
       * NODE_VERSION 16.3.1
