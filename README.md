@@ -21,7 +21,7 @@ It is also should be known that the keypair has to be empty with no sols inside 
  * MintNFT can be invoked only when CMS has signed the transaction.
 
 ### How to add CMS via cli:
- * isSignatureRequired to true in config file.
+ * mintSignerRequired to true in config file.
  * Generate Keypair and store it for later use.
  * Include the CMS keypair when uploading via cm-v2-cli (--cms command)
  * You are done.
